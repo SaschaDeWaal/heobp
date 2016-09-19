@@ -8,6 +8,7 @@ public:
 	ofPoint position;
 	float radius;
 	ofVec2f speed;
+	long rotateSpeed;
 	long lifeTime;
 
 	ofColor centerColor = ofColor::white;

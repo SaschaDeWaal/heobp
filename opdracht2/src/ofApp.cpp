@@ -2,17 +2,23 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	part1 = particle();
+	for (int i = 0; i < particles.size(); i++) {
+		particles[i] = particle();
+	}
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	part1.Move();
+	for (int i = 0; i < particles.size(); i++) {
+		particles[i].Move();
+	}
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-	part1.Draw();
+	for (int i = 0; i < particles.size(); i++) {
+		particles[i].Draw();
+	}
 }
 
 //--------------------------------------------------------------

@@ -12,7 +12,9 @@ class ofApp : public ofBaseApp{
 
 		void keyPressed(int key);
 
-		particle part1;
+		array<particle, 100> particles;
+
+		
 		
 		
 };

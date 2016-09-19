@@ -1,7 +1,6 @@
-﻿  ofApp.cpp
-d:\program files\of_v0.9.3_vs_release\apps\heobp\opdracht2\src\ofApp.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-d:\program files\of_v0.9.3_vs_release\apps\heobp\opdracht2\src\ofApp.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  opdracht1.vcxproj -> D:\Program Files\of_v0.9.3_vs_release\apps\heobp\opdracht2\bin\opdracht1_debug.exe
-  opdracht1.vcxproj -> bin\opdracht1_debug.pdb (Full PDB)
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (obj\Debug\) contains files shared from another project (opdracht1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  particle.cpp
+  opdracht1.vcxproj -> D:\Program Files\of_v0.9.3_vs_release\apps\heobp\opdracht2\bin\opdracht2_debug.exe
+  opdracht1.vcxproj -> bin\opdracht2_debug.pdb (Full PDB)
   
   	                   9	D:\Program Files\of_v0.9.3_vs_release\export\vs\Win32\
