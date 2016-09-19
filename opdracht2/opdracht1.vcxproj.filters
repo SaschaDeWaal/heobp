@@ -7,7 +7,7 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Beatnory\Desktop\particle.cpp">
+    <ClCompile Include="src\particle.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -20,7 +20,7 @@
     <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Beatnory\Desktop\particle.h">
+    <ClInclude Include="src\particle.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

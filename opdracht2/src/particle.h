@@ -1,3 +1,5 @@
+//file
+
 #pragma once
 
 #include "ofMain.h"
@@ -8,8 +10,8 @@ public:
 	ofPoint position;
 	float radius;
 	ofVec2f speed;
-	long rotateSpeed;
 	long lifeTime;
+	float rotateSpeed;
 
 	ofColor centerColor = ofColor::white;
 	ofColor innerColor;

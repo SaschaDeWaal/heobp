@@ -172,12 +172,12 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Beatnory\Desktop\particle.cpp" />
+    <ClCompile Include="src\particle.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Beatnory\Desktop\particle.h" />
+    <ClInclude Include="src\particle.h" />
     <ClInclude Include="src\ofApp.h" />
   </ItemGroup>
   <ItemGroup>
