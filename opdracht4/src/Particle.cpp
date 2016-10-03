@@ -1,7 +1,7 @@
 #include "Particle.h"
 
 Particle::Particle(int startX, int startY, ofColor inner, ofColor outer) {
-    radius = ofRandom(10, 50);
+    radius = ofRandom(5, 30);
     position = ofPoint(startX,
                        startY);
 

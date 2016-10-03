@@ -22,6 +22,9 @@
     <ClCompile Include="src\ParticeFactory.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\BounceParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -42,6 +45,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\ParticeFactory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BounceParticle.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

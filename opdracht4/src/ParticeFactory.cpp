@@ -1,6 +1,7 @@
 #include "ParticeFactory.h"
 
 #include "CurvingParticle.h"
+#include "BounceParticle.h"
 
 void ParticeFactory::SetOrigin(int x, int y){
 	originX = x;
@@ -19,11 +20,15 @@ void ParticeFactory::setColours(ofColor innerColour, ofColor outerColour) {
 Particle* ParticeFactory::emit() {
 	Particle* newParticle;
 
-	if (ofRandom(1) > (1 - curvingParticleRatio)) {
+	int random = ofRandom(3);
+
+	if (random == 0) {
 		newParticle = new CurvingParticle(originX, originY, inner, outer);
-	}else {
+	}else if(random == 1){
 		newParticle = new Particle(originX, originY, inner, outer);
-		
+	}
+	else {
+		newParticle = new BounceParticle(originX, originY, inner, outer);
 	}
 
 
