@@ -34,3 +34,7 @@ void Particle::draw() {
     ofSetColor(centerColour);
     ofDrawCircle(position.x, position.y, radius * 0.25);
 }
+
+void Particle::checkOutsideScreen() {
+	
+}
